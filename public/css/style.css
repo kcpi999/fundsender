@@ -1,0 +1,63 @@
+.top-buffer {
+    margin-top: 20px;
+}
+
+.no-backgr {
+    background: none !important;
+}
+
+.header {
+    background: #baffbd; /* Old browsers */
+    background: -moz-linear-gradient(left, #baffbd 0%, #74ed7e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #baffbd 0%,#74ed7e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #baffbd 0%,#74ed7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#baffbd', endColorstr='#74ed7e',GradientType=1 ); /* IE6-9 */
+}
+
+.header-logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/images/logo.png);
+    background-size: 270px 100px;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 100px;
+}
+
+.kc-html .kc-navbar {
+    margin: 0;
+    height: 100px;
+}
+
+.nav-user {
+    line-height: 100px;
+}
+
+.auth-modal .modal-header {
+    background-color: #95D092;
+    color: #383838;
+    padding-bottom: 0;
+}
+
+.modal-tabs-handler li a {
+    border-radius: 9px 9px 0 0;
+    color: #383838;
+}
+
+form label.error {
+    color: #FF0012;
+}
+
+.logout:hover {
+    color: #841490;
+}
+
+.text-big {
+    font-size: 1.3em;
+}
+
+.text-large {
+    font-size: 1.6em;
+}

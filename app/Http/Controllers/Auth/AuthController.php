@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $redirectTo = '/sendfunds';
 
     /**
      * Create a new authentication controller instance.
@@ -50,8 +50,8 @@ class AuthController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
+            'email' => 'required|email|max:99|unique:users',
+            'password' => 'required|min:6|max:70|confirmed',
         ]);
     }
 

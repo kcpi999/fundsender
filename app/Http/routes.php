@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+    'uses' => 'FundsenderController@frontpage',
+    'as' => 'FundsenderController@frontpage'
+]);
+
+Route::get('/sendfunds', [
+    'uses' => 'FundsenderController@main',
+    'as' => 'FundsenderController@main',
+]);
+
+Route::auth();
+
+
+//Route::get('/home', 'HomeController@index');
