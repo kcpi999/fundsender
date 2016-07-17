@@ -21,7 +21,16 @@ Route::get('/sendfunds', [
     'as' => 'FundsenderController@main',
 ]);
 
-Route::auth();
+Route::post('/sendfunds', [
+    'uses' => 'FundsenderController@sendfunds',
+    'as' => 'FundsenderController@sendfunds',
+]);
 
+Route::get('/ajax/users.get', [
+    'uses' => 'FundsenderController@usersGet',
+    'as' => 'FundsenderController@usersGet',
+]);
+
+Route::auth();
 
 //Route::get('/home', 'HomeController@index');

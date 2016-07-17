@@ -61,3 +61,7 @@ form label.error {
 .text-large {
     font-size: 1.6em;
 }
+
+.msg.error {
+    color: #FF0012;
+}

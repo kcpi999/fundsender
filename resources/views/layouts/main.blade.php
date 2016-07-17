@@ -3,9 +3,11 @@
     <head>
         <title>Fundsender</title>
         <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('jquery-ui/jquery-ui.min.css') }}">
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('js/jquery.validate.min.js') }}"></script>
+        <script src="{{ asset('jquery-ui/jquery-ui.min.js') }}"></script>
 
         <link rel="stylesheet" href="{{ asset('css/style.css') }}?v={{ time() }}">
         <script src="{{ asset('js/main.js') }}?v={{ time() }}"></script>
